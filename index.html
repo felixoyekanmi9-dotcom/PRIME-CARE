@@ -2,108 +2,313 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PrimeCare Hygiene Ltd</title>
+    <title>PrimeCare Hygiene Ltd | Guarding What Matters Most</title>
 
+    <meta name="description"
+        content="Premium hygiene and cleaning products for homes, schools, hospitals and businesses.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
-<header>
+    <!--================ HEADER ================-->
 
-    <div class="container">
+    <header>
 
-        <div class="logo">
-            Prime<span>Care</span>
-        </div>
+        <div class="container nav-container">
 
-        <nav>
-
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-
-        </nav>
-
-    </div>
-
-</header>
-
-
-<section class="hero">
-
-    <div class="container hero-content">
-
-        <div class="hero-text">
-
-            <h1>
-                Guarding What Matters Most
-            </h1>
-
-            <p>
-
-                Premium hygiene products designed for homes,
-                offices, schools, hospitals and businesses.
-
-            </p>
-
-            <a href="#" class="btn">
-                Explore Products
+            <a href="#home" class="logo">
+                Prime<span>Care</span>
             </a>
 
+            <nav>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#products">Products</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+            <a href="#products" class="btn">
+                Shop Now
+            </a>
+
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
         </div>
 
-        <div class="hero-image">
+    </header>
 
-            <img src="images/hero-banner.jpeg" alt="PrimeCare">
+    <!--================ HERO ================-->
+
+    <section class="hero" id="home">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <span class="tag">
+                    Trusted Hygiene Brand
+                </span>
+
+                <h1>
+                    Guarding What Matters Most
+                </h1>
+
+                <p>
+                    Premium hygiene and cleaning solutions for homes,
+                    offices, schools, hospitals and industries.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="btn">
+                        Explore Products
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="images/hero-banner.jpeg"
+                    alt="PrimeCare Hygiene Products">
+
+            </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
-<section class="products">
+    <!--================ ABOUT ================-->
+
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>ABOUT PRIMECARE</span>
+
+                <h2>Keeping Every Environment Safe & Clean</h2>
+
+            </div>
+
+            <p>
+                PrimeCare Hygiene Ltd is committed to providing premium
+                hygiene and cleaning products that protect homes,
+                businesses, schools and healthcare facilities.
+
+                Our range includes disinfectants, liquid soaps,
+                toilet cleaners, air fresheners and insecticides
+                designed to deliver outstanding performance every day.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--================ PRODUCTS ================-->
+
+    <section class="products" id="products">
+
     <div class="container">
-        <h2>Our Products</h2>
+
+        <div class="section-title">
+
+            <span>OUR PRODUCTS</span>
+
+            <h2>Premium Hygiene Solutions</h2>
+
+            <p>
+                Discover our trusted range of cleaning and hygiene products
+                for homes, offices and industries.
+            </p>
+
+        </div>
 
         <div class="product-grid">
 
             <div class="product-card">
-                <img src="images/izar.jpg.jpeg" alt="Izal Disinfectant">
-                <h3>Izal Disinfectant</h3>
-                <p>Powerful disinfectant for homes and businesses.</p>
+
+                <img src="images/primecare-liquidsoap.jpeg"
+                     alt="PrimeCare Liquid Soap">
+
+                <div class="product-info">
+
+                    <h3>Liquid Soap</h3>
+
+                    <p>
+                        Gentle, effective hand washing solution that keeps your hands clean and fresh.
+                    </p>
+
+                </div>
+
             </div>
 
             <div class="product-card">
-                <img src="images/liquild soap .jpg.jpeg" alt="Liquid Soap">
-                <h3>Liquid Soap</h3>
-                <p>Gentle and effective hand washing solution.</p>
+
+                <img src="images/toilet-cleaner.jpeg"
+                     alt="Toilet Cleaner">
+
+                <div class="product-info">
+
+                    <h3>Toilet Cleaner</h3>
+
+                    <p>
+                        Removes stains, eliminates germs and leaves toilets sparkling clean.
+                    </p>
+
+                </div>
+
             </div>
+            <div class="product-card">
+
+    <img src="images/izal.jpeg" alt="PrimeCare Izal Disinfectant">
+
+    <div class="product-info">
+
+        <h3>Izal Disinfectant</h3>
+
+        <p>
+            Powerful disinfectant formulated to kill 99.9% of germs,
+            remove unpleasant odours, and keep homes, offices, toilets,
+            schools and healthcare facilities hygienically clean.
+        </p>
+
+    </div>
+
+</div>
 
             <div class="product-card">
-                <img src="images/Toilet cleaner.jpg.jpeg" alt="Toilet Cleaner">
-                <h3>Toilet Cleaner</h3>
-                <p>Removes stains and kills germs effectively.</p>
-            </div>
 
-            <div class="product-card">
-                <img src="images/airfreshner.jpeg.jpeg" alt="Air Freshener">
-                <h3>Air Freshener</h3>
-                <p>Leaves every room fresh and pleasant.</p>
+                <img src="images/air-freshener.jpeg"
+                     alt="Air Freshener">
+
+                <div class="product-info">
+
+                    <h3>Air Freshener</h3>
+
+                    <p>
+                        Long-lasting fragrance that keeps every room smelling fresh.
+                    </p>
+
+                </div>
+
             </div>
 
         </div>
-    </div>
-</section>
 
+    </div>
+
+</section>
+<!--================ CONTACT ================-->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>CONTACT US</span>
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                We'd love to hear from you. Reach out for enquiries, orders, or partnerships.
+            </p>
+
+        </div>
+
+        <div class="contact-content">
+
+            <div class="contact-card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone</h3>
+                <p>
+    <a href="tel:+2347069005022">
+        +234 706 900 5022
+    </a>
+</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>
+    <a href="mailto:primecarehygienelimited@gmail.com">
+        primecarehygienelimited@gmail.com
+    </a>
+</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Location</h3>
+                <p>Nigeria</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <!--================ FOOTER ================-->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>&copy; 2026 PrimeCare Hygiene Ltd. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+<!--================ WHATSAPP FLOAT ================-->
+
+<a href="https://wa.me/2347069005022"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat with us on WhatsApp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
 </body>
 
 </html>
