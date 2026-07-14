@@ -256,6 +256,22 @@ PRODUCTS
 .product-info p{
     color:#666;
 }
+.product-features{
+    margin-top:15px;
+    padding:0;
+    list-style:none;
+}
+
+.product-features li{
+    margin:8px 0;
+    color:#555;
+    font-size:15px;
+}
+
+.product-features i{
+    color:#0b8a3d;
+    margin-right:8px;
+}
 
 /*=========================
 CONTACT
